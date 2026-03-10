@@ -9,6 +9,7 @@ const manrope = Manrope({
   display: "swap",
 });
 
+
 const sora = Sora({
   subsets: ["latin"],
   variable: "--font-display",
