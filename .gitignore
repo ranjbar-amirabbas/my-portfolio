@@ -35,3 +35,8 @@ coverage/
 
 # misc
 *.swp
+
+# OpenNext / Wrangler
+.open-next/
+.wrangler/
+.dev.vars
