@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 35% 6%;
+  --foreground: 180 25% 94%;
+  --card: 220 28% 10%;
+  --card-foreground: 180 22% 92%;
+  --muted: 220 24% 16%;
+  --muted-foreground: 206 16% 70%;
+  --border: 215 20% 22%;
+  --primary: 169 84% 48%;
+  --primary-foreground: 216 38% 10%;
+  --accent: 67 100% 66%;
+  --accent-foreground: 228 40% 10%;
+}
+
+* {
+  @apply border-border;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+::selection {
+  background: hsl(var(--primary) / 0.26);
+  color: hsl(var(--foreground));
+}
