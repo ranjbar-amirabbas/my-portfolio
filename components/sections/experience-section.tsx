@@ -21,7 +21,7 @@ export function ExperienceSection() {
       <div className="relative space-y-6 before:absolute before:bottom-2 before:left-[1.05rem] before:top-2 before:w-px before:bg-gradient-to-b before:from-primary/70 before:to-transparent sm:before:left-[1.18rem]">
         {experiences.map((experience, idx) => (
           <Reveal key={`${experience.company}-${experience.period}`} delay={idx * 0.06}>
-            <article className="relative rounded-2xl border border-border/70 bg-card/50 p-6 transition-all duration-300 hover:border-primary/45 hover:bg-card/80 sm:pl-14">
+            <article className="relative rounded-2xl border border-border/70 bg-card/50 p-6 pl-12 transition-all duration-300 hover:border-primary/45 hover:bg-card/80 sm:pl-14">
               <div className="absolute left-3 top-7 flex h-6 w-6 items-center justify-center rounded-full border border-primary/40 bg-background text-primary sm:left-4">
                 <BriefcaseBusiness className="h-3.5 w-3.5" aria-hidden="true" />
               </div>
