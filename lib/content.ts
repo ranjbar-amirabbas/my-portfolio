@@ -87,6 +87,7 @@ export const portfolioContent = {
       company: "Veera Smart Solution",
       role: "Senior Software Engineer",
       period: "May 2025 - Present",
+      location: "Vancouver",
       highlights: [
         "Co-founded and architected a hospitality-focused platform for hotels, residential complexes, and office buildings to streamline internal operations through a BPMS-driven system.",
         "Designed and implemented a scalable backend architecture enabling workflow automation across accounting, resource management, facility operations, and internal service processes — reducing manual coordination and improving operational visibility.",
@@ -102,6 +103,7 @@ export const portfolioContent = {
       company: "Okala",
       role: "Senior Software Engineer",
       period: "May 2021 - May 2025",
+      location: "Tehran",
       highlights: [
         "Built a high-traffic gamification platform powering large-scale national campaigns that drove 250,000+ daily orders at peak — breaking the country's sales record and outperforming major competitors. Architected with ASP.NET Core microservices and a Kafka-based event-driven backbone, the platform sustained extreme concurrency and reliable real-time reward orchestration under heavy traffic spikes.",
         "Designed and delivered a Real-Time Product Catalog & Pricing Engine using Kafka and Apache Flink, composed of ~8 domain-driven microservices for inventory, pricing, and product availability. Replaced a 30-minute monolithic sync process with a fault-tolerant streaming architecture capable of processing up to 2 million item updates per minute in near real-time. This transformation enabled dynamic pricing for Sales & Marketing and generated profit equivalent to the company's entire annual budget — marking the first profitable cycle.",
@@ -116,6 +118,7 @@ export const portfolioContent = {
       company: "DPI Iran (ex-IBM)",
       role: "Software Engineer",
       period: "Apr 2019 - May 2021",
+      location: "Tehran",
       highlights: [
         "Contributed to the modernization of a legacy urban electricity management system by launching electronic billing as a key digital transformation milestone. The shift from paper-based invoices to e-billing reduced operational costs, eliminated large-scale printing overhead, and supported environmental sustainability by significantly reducing paper consumption.",
         "Improved system performance by analyzing and optimizing complex SQL queries, reducing response times, and improving overall system stability. Database refactoring and modernization efforts, enhancing maintainability and preparing the platform for future upgrades.",

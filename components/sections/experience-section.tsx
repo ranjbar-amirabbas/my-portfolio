@@ -29,7 +29,10 @@ export function ExperienceSection() {
               <header className="space-y-2">
                 <h3 className="font-display text-2xl font-medium text-foreground">{experience.role}</h3>
                 <p className="text-base font-medium text-primary">{experience.company}</p>
-                <p className="text-sm text-muted-foreground">{experience.period}</p>
+                <p className="text-sm text-muted-foreground">
+                  {experience.period}
+                  {experience.location ? ` · ${experience.location}` : ""}
+                </p>
               </header>
 
               <ul className="mt-5 space-y-2 text-sm leading-relaxed text-muted-foreground">
