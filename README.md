@@ -1,9 +1,9 @@
 # AmirAbbas Portfolio (Next.js)
 
-A premium, conversion-focused personal portfolio built from `assets/AmirAbbasRanjbar-Resume.pdf`.
+A premium, conversion-focused personal portfolio built from `assets/AmirAbbasRanjbar.pdf`.
 
 ## Data Extraction Notes
-Source: `assets/AmirAbbasRanjbar-Resume.pdf`
+Source: `assets/AmirAbbasRanjbar.pdf`
 
 Extracted and adapted:
 - Name: AmirAbbas Ranjbar
