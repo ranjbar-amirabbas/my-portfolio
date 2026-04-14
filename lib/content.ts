@@ -37,7 +37,7 @@ export const portfolioContent = {
     location: "Vancouver, BC",
     phone: "+1 (672) 399-0910",
     avatar: "/assets/me.jpeg",
-    resumeUrl: "/assets/AmirAbbasRanjbarResume.pdf",
+    resumeUrl: "/assets/AmirAbbasRanjbar-Resume.pdf",
     socialLinks: [
       {
         label: "LinkedIn",
