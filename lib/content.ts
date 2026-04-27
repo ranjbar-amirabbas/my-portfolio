@@ -87,14 +87,11 @@ export const portfolioContent = {
       company: "Veera Smart Solution",
       role: "Senior Software Engineer",
       period: "May 2025 - Present",
-      location: "Vancouver",
+      location: "Vancouver, BC",
       highlights: [
-        "Co-founded and architected a hospitality-focused platform for hotels, residential complexes, and office buildings to streamline internal operations through a BPMS-driven system.",
         "Designed and implemented a scalable backend architecture enabling workflow automation across accounting, resource management, facility operations, and internal service processes — reducing manual coordination and improving operational visibility.",
-        "Led rapid product development cycles, translating real-world operational challenges into deployable solutions, shipping iteratively, and adapting quickly based on client feedback.",
         "Built an AI-powered Trip Planner solution for the tourism sector, enabling hotels to generate personalized tour recommendations for guests while supporting managers in curating optimized tour packages.",
         "Leveraged AI-assisted development and agentic AI workflows to accelerate product iteration, reduce development time, and move from idea to deployable features significantly faster.",
-        "Remained hands-on across architecture, backend development, and technical decision-making while aligning product direction with business strategy and market validation.",
         "Played a key role in bridging business and engineering by translating evolving client requirements into scalable technical architectures. Led stakeholder communications, shaped product direction, and drove the development of AI-powered features that accelerated product innovation and time-to-market.",
       ],
       stack: [".NET", "Event-Driven Architecture", "BPMS", "AI Workflows", "Cloud-Native Systems"],
@@ -103,11 +100,9 @@ export const portfolioContent = {
       company: "Okala",
       role: "Senior Software Engineer",
       period: "May 2021 - May 2025",
-      location: "Tehran",
+      location: "Tehran, Iran",
       highlights: [
-        "Built a high-traffic gamification platform powering large-scale national campaigns that drove 250,000+ daily orders at peak — breaking the country's sales record and outperforming major competitors. Architected with ASP.NET Core microservices and a Kafka-based event-driven backbone, the platform sustained extreme concurrency and reliable real-time reward orchestration under heavy traffic spikes.",
-        "Designed and delivered a Real-Time Product Catalog & Pricing Engine using Kafka and Apache Flink, composed of ~8 domain-driven microservices for inventory, pricing, and product availability. Replaced a 30-minute monolithic sync process with a fault-tolerant streaming architecture capable of processing up to 2 million item updates per minute in near real-time. This transformation enabled dynamic pricing for Sales & Marketing and generated profit equivalent to the company's entire annual budget — marking the first profitable cycle.",
-        "Implemented a personalized product recommendation system leveraging customer purchase history, increasing repeat purchases, and driving organic revenue growth. The initiative unlocked a new non-operational revenue stream and enabled direct brand partnerships for targeted promotions and strategic collaboration.",
+        "Designed and delivered a Real-Time Product Catalog & Pricing Engine using Kafka and Apache Flink, composed of 8 domain-driven microservices for inventory, pricing, and product availability. Replaced a 30-minute monolithic sync process with a fault-tolerant streaming architecture capable of processing up to 2 million item updates per minute in near real-time. This transformation enabled dynamic pricing for Sales & Marketing and generated profit equivalent to the company's entire annual budget — marking the first profitable cycle.",
         "Contributed to the modernization of a legacy monolithic system (C#/.NET) by extracting and redesigning key domains into scalable microservices built with CQRS patterns and isolated databases (SQL Server, Redis). Leveraged event-driven architecture to eliminate heavy database locking and reduce vendor service-radius update latency from ~5 minutes to near real-time. This transformation enabled integration with multiple delivery providers, introduced advanced vendor-level controls, and expanded platform capacity from 200 to over 10,000 vendors — significantly increasing service coverage and operational scalability.",
         "Helped drive a 70% increase in sales by improving vendor visibility, expanding customer coverage, and enhancing delivery capabilities across the platform.",
         "Collaborated within a cross-functional engineering team to balance large-scale architectural refactoring with ongoing production demands and business continuity.",
@@ -118,7 +113,7 @@ export const portfolioContent = {
       company: "DPI Iran (ex-IBM)",
       role: "Software Engineer",
       period: "Apr 2019 - May 2021",
-      location: "Tehran",
+      location: "Tehran, Iran",
       highlights: [
         "Contributed to the modernization of a legacy urban electricity management system by launching electronic billing as a key digital transformation milestone. The shift from paper-based invoices to e-billing reduced operational costs, eliminated large-scale printing overhead, and supported environmental sustainability by significantly reducing paper consumption.",
         "Improved system performance by analyzing and optimizing complex SQL queries, reducing response times, and improving overall system stability. Database refactoring and modernization efforts, enhancing maintainability and preparing the platform for future upgrades.",
@@ -216,7 +211,7 @@ export const portfolioContent = {
     {
       category: "Testing & Quality",
       items: [
-        "TDD",
+        "Test-Driven Development (TDD)",
         "Unit Testing (xUnit, NUnit)",
         "Integration Testing",
         "Continuous Integration (CI)",
